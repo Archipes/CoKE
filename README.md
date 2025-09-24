@@ -56,7 +56,7 @@ Running `python -m coedit.evaluate -h` provides details about command-line flags
 
 ## Results
 Raw result data in paper can be found at [`results/results-paper.xlsx`](results/results-paper.xlsx)
-![Editing Curves](results[result.png)
+![Editing Curves](results/result.png)
 
 ## How to Cite
 
