@@ -20,7 +20,7 @@ CONDA_HOME=$CONDA_HOME ./scripts/setup_conda.sh
 
 ## Running the Full Evaluation Suite
 
-[`coedit/evaluate.py`](coedit/evaluate.py) can be used to evaluate CoKE-MEMIT, CoKE-PMET, pCoKE-MEMIT, pCoKE-PMET.
+[`coedit/evaluate.py`](coedit/evaluate.py) can be used to evaluate CoKE-MEMIT, CoKE-PMET, pCoKE-MEMIT, pCoKE-PMET, [`MEMIT`](https://github.com/kmeng01/memit), [`PMET`](https://github.com/xpq-tech/PMET).
 
 For example:
 ```
