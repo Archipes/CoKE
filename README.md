@@ -5,7 +5,7 @@
 
 - [Installation](#installation)
 - [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
-- [Results](#generating-scaling-curves)
+- [Results](#results)
 - [How to Cite](#how-to-cite)
 
 ## Installation
@@ -56,8 +56,7 @@ Running `python -m coedit.evaluate -h` provides details about command-line flags
 
 ## Results
 Raw result data in paper can be found at [`results/results-paper.xlsx`](results/results-paper.xlsx)
-### Editing Curves
-[](results/result.png)
+![Editing Curves](results[result.png)
 
 ## How to Cite
 
