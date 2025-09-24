@@ -5,7 +5,7 @@
 
 - [Installation](#installation)
 - [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
-- [Generating Scaling Curves](#generating-scaling-curves)
+- [Results](#generating-scaling-curves)
 - [How to Cite](#how-to-cite)
 
 ## Installation
@@ -20,7 +20,7 @@ CONDA_HOME=$CONDA_HOME ./scripts/setup_conda.sh
 
 ## Running the Full Evaluation Suite
 
-[`coedit/evaluate.py`](coedit/evaluate.py) can be used to evaluate any method in [`baselines/`](baselines/).
+[`coedit/evaluate.py`](coedit/evaluate.py) can be used to evaluate CoKE-MEMIT, CoKE-PMET, pCoKE-MEMIT, pCoKE-PMET.
 
 For example:
 ```
@@ -53,6 +53,11 @@ python -m coedit.summarize --dir_name=MEMIT --runs=run_<run1>/client_<client0>/_
 ```
 
 Running `python -m coedit.evaluate -h` provides details about command-line flags.
+
+## Results
+Raw result data in paper can be found at [`results/results-paper.xlsx`](results/results-paper.xlsx)
+### Editing Curves
+[](results/result.png)
 
 ## How to Cite
 
